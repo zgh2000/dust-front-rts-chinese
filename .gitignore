@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Unity assets (large files, don't track)
+*.assets
+*.assets.resS
+*.assets.bak
+*.assets.orig
+*.assets.patched
+*.resource
+
+# Output CSV files (generated, can be regenerated)
+output/*.csv
+
+# Game files
+*.exe
+*.dll
+*.json
