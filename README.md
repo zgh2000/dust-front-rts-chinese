@@ -2,6 +2,13 @@
 
 对编译好的 Unity IL2CPP 游戏 **Dust Front RTS Demo** 进行中文本地化。
 
+## 翻译信息
+
+- **翻译模型**：MiMo Auto（`mimo/mimo-auto`）
+- **翻译工具**：MiMo Code Agent
+- **翻译方式**：AI 逐条翻译，人工审校
+- **翻译语言**：英文 → 中文（简体）
+
 ## 安装
 
 将本仓库克隆到游戏根目录：
