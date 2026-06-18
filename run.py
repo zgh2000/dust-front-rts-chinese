@@ -3,7 +3,8 @@ import os
 import shutil
 import sys
 
-GAME_PATH = r"D:\SteamLibrary\steamapps\common\Dust Front RTS Demo\Dust Front RTS_Data"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+GAME_PATH = os.path.join(SCRIPT_DIR, "..", "Dust Front RTS_Data")
 ASSETS_FILE = os.path.join(GAME_PATH, "resources.assets")
 BACKUP_FILE = os.path.join(GAME_PATH, "resources.assets.bak")
 PATCHED_FILE = os.path.join(GAME_PATH, "resources.assets.patched")
