@@ -35,7 +35,8 @@ def patch():
         if not text or len(text) < 100:
             continue
 
-        if obj.path_id not in (163, 165):
+        # 动态检测本地化文件（查找 Keys,Russian 头部）
+        if 'Keys,Russian' not in text[:100]:
             continue
 
         print(f"\nProcessing TextAsset path_id={obj.path_id}...")
